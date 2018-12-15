@@ -1,0 +1,15 @@
+(1) how to change the jupyter start up folder
+
+https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder
+
+(2) how to call a function in another python file
+
+from importlib import reload #works for Python 3.4 or later
+import foo
+reload(foo)  #make sure we always have the latest copy
+
+
+
+
+sabr analytics
+https://github.com/ynouri/pysabr/blob/master/pysabr/models/hagan_2002_lognormal_sabr.py
