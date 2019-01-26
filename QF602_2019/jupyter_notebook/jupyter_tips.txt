@@ -2,6 +2,10 @@
 
 https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder
 
+c.NotebookApp.notebook_dir = "D:\python-smu-derivatives\QF602_2019\jupyter_notebook"
+
+C:\Users\My PC\.jupyter\jupyter_notebook_config.py
+
 (2) how to call a function in another python file
 
 from importlib import reload #works for Python 3.4 or later
